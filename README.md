@@ -1,44 +1,44 @@
-# 🐍 Snake Game em Java
+# 🐍 Snake Game in Java
 
-Criação de um  Snake Game, utilizando Java para implementar a lógica do jogo e a interface gráfica.
+Creation of a Snake Game, using Java to implement the game logic and graphical interface.
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
-- [x] Controle do movimento da cobra
-- [x] Detecção de colisões com paredes e consigo mesma
-- [x] Crescimento da cobra ao comer alimentos
-- [x] Interface gráfica simples
+- [x] Snake movement control
+- [x] Collision detection with walls and itself
+- [x] Snake growth by eating food
+- [x] Simple graphical interface
 - [x] Main
 
 ---
 
-## 🛣️ Como executar o projeto
+## 🛣️ How to Run the Project
 
-Este projeto é executado em uma IDE da sua preferência:
+This project runs in an IDE of your choice:
 
-1. Instale o Java e suas Dependências **[JDK, JRE]**.
-2. Certifique-se de que é a Java SE 17 ou versões posteriores como a Java SE 21.
-3. Faça um clone desse repositório com git clone https://github.com/juliameireles/SnakeGame.git
-4. Execute o código em alguma IDE (VScode, Netbeans, Eclipse,etc)
+1. Install Java and its dependencies **[JDK, JRE]**.
+2. Ensure you have Java SE 17 or later versions like Java SE 21.
+3. Clone this repository with `git clone https://github.com/juliameireles/SnakeGame.git`
+4. Run the code in an IDE (VSCode, NetBeans, Eclipse, etc.)
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before you begin, you will need to have the following tools installed on your machine:
 [Git](https://git-scm.com), [JavaSE21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
-Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [NetBeans](https://netbeans.apache.org/front/main/index.html).
+It is also good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/) or [NetBeans](https://netbeans.apache.org/front/main/index.html).
 
 ---
 
-## 🛠 Tecnologias
+## 🛠 Technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in the construction of the project:
 
 #### **Java** ([JavaSE21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html) + [JRE](https://www.java.com/pt-BR/download/manual.jsp) + [JDK](https://www.oracle.com/java/technologies/downloads/))
 
 ---
 
-## 👨‍💻 Contribuidores
+## 👨‍💻 Contributors
 👏
 
 <table>
@@ -47,12 +47,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </tr>
 </table>
 
-## 💪 Como contribuir para o projeto
+## 💪 How to Contribute to the Project
 
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+1. Make a **fork** of the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save the changes and create a commit message describing what you did: `git commit -m "feature: My new feature"`
+4. Send your changes: `git push origin my-feature`
+   > If you have any questions, check out this [guide on how to contribute on GitHub](./CONTRIBUTING.md)
 
 ---
