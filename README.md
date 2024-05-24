@@ -1,7 +1,6 @@
 # 🐍 Snake Game em Java
 
-Simulação de um jogo Snake, utilizando Java para implementar a lógica do jogo e a interface gráfica. Objetivo de colocar em prática o conteúdo passado na disciplina **[Programação Concorrente e Distribuída - GPE02N0546]**.
-
+Criação de um  Snake Game, utilizando Java para implementar a lógica do jogo e a interface gráfica.
 ---
 
 ## ⚙️ Funcionalidades
@@ -16,17 +15,18 @@ Simulação de um jogo Snake, utilizando Java para implementar a lógica do jogo
 
 ## 🛣️ Como executar o projeto
 
-Este projeto é executado no terminal:
+Este projeto é executado em uma IDE da sua preferência:
 
-1. Instale as dependências Java **[JDK, JRE]**.
-2. Versão do JAVA 17SE.
-3. Compile e execute o módulo **"./src/main/java/SnakeGame.java"**.
+1. Instale o Java e suas Dependências **[JDK, JRE]**.
+2. Certifique-se de que é a Java SE 17 ou versões posteriores como a Java SE 21.
+3. Faça um clone desse repositório com git clone https://github.com/juliameireles/SnakeGame.git
+4. Execute o código em alguma IDE (VScode, Netbeans, Eclipse,etc)
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [JavaSE17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
-Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [Eclipse](https://eclipseide.org/).
+[Git](https://git-scm.com), [JavaSE21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
+Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [NetBeans](https://netbeans.apache.org/front/main/index.html).
 
 ---
 
@@ -34,7 +34,7 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Java** ([JavaSE17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) + [JRE](https://www.java.com/pt-BR/download/manual.jsp) + [JDK](https://www.oracle.com/java/technologies/downloads/))
+#### **Java** ([JavaSE21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html) + [JRE](https://www.java.com/pt-BR/download/manual.jsp) + [JDK](https://www.oracle.com/java/technologies/downloads/))
 
 ---
 
