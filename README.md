@@ -10,6 +10,7 @@ Creation of a Snake Game, using Java to implement the game logic and graphical i
 - [x] Snake growth by eating food
 - [x] Simple graphical interface
 - [x] Main
+- [x] To restart the game, press the spacebar
 
 ---
 
