@@ -32,15 +32,30 @@ public class GamePanel extends JPanel implements ActionListener{
       
   }
   public void startGame(){
-     newApple();
+      bodyParts = 6; 
+      applesEaten = 0;
+      direction = 'R'; 
       running = true;
-      timer = new Timer(DELAY,this);
-      timer.start();
-     
+      initSnake();
+      newApple();
+    
+     if (timer != null) {
+        timer.stop();
+    }
+    timer = new Timer(DELAY, this);
+    timer.start();
+}
+
+
+private void initSnake() {
+    for (int i = 0; i < bodyParts; i++) {
+        x[i] = 50 - i * UNIT_SIZE;
+        y[i] = 50;
+    }
+}
+  
       
-      
-      
-  }
+  
   
   
     @Override
@@ -230,6 +245,13 @@ public class myKeyAdapter extends KeyAdapter{
                 if(direction != 'U'){
                     direction = 'D';
                 }
+
+            case KeyEvent.VK_SPACE:
+              if(!running){
+                startGame();
+                repaint();
+    
+              }
                 break;
            
                 
